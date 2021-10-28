@@ -1,8 +1,35 @@
 /* FORSIDE RAINY DAYS */
 /* Meny */
 .logo {
-    background-color: #113040;
+    max-width: 150px;
 }
+
+header,
+footer {
+    background-color: #113040;
+    display: flex;
+}
+
+nav {
+    margin-left: 25px;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.menu {
+    font-family: 'Federant', cursive;
+    font-size: 1.8em;
+    color: #FFF;
+    padding: 10px;
+}
+
+/*Innhold på forside */
 
 .frontheader {
     font-family: 'Federant', cursive;
@@ -13,4 +40,36 @@
 
 .image-front {
     max-width: 500px;
+}
+
+/* Ordne de 5 knappene på siden */
+.cta {
+    background-color: #0B7F99;
+    color: #FFF;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 10px 80px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.cta-small {
+    padding: 8px 20px;
+    font-size: 0,8em;
+    grid-column: 2;
+    grid-row: 2;
+    min-width: 51.2px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.footer-header {
+    font-family: 'Federant', cursive;
+    color: #FFF;
+}
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+    color: #FFF;
 }

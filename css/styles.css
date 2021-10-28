@@ -3,3 +3,14 @@
 .logo {
     background-color: #113040;
 }
+
+.frontheader {
+    font-family: 'Federant', cursive;
+    font-size: 3.5em;
+    font-weight: 110;
+    text-align: center;
+}
+
+.image-front {
+    max-width: 500px;
+}

@@ -89,6 +89,14 @@ li.help-elements {
     max-width: 500px;
 }
 
+.flex-img {
+    display: flex;
+    margin: 0;
+}
+.flex-img > * {
+    flex: 50%;
+}
+
 /* Ordne de 5 knappene på siden */
 .cta {
     background-color: #0B7F99;
@@ -133,10 +141,6 @@ li.help-elements {
 .text {
     font-family: 'Montserrat', sans-serif;
     color: #FFF;
-}
-
-.imgaes-align{
-    display: flex;
 }
 
 .buttons {

@@ -133,6 +133,21 @@ li.help-elements {
     margin-top: 10px;
 }
 
+.cta-mail {
+    background-color: grey;
+    color: #FFF;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 5px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    grid-column: 2;
+    grid-row: 2;
+    max-width: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
 .footer-header {
     font-family: 'Federant', cursive;
     color: #FFF;
@@ -147,6 +162,13 @@ li.help-elements {
     display: flex;
     flex-wrap: wrap;
     align-items: right;
+}
+
+/* Plassere de tre knappene news, sale og about us*/
+.flex-buttons {
+    display: flex;
+    padding: 10px;
+    align-items: center;
 }
 
 /*FOOTER */
